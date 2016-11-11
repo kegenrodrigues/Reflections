@@ -24,6 +24,12 @@ Diagrams help me to understand which commits are unreachable at all
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The result is the lines of code(LOC) which were common between the files to be merged, deletions of the original LOC if not present in any one of the files to be merged(deleted by that user),additions of LOC from the merged files which adds their own features(jack and rachael)
+The branch which is checkedout is the branch which will be the result of the merged branch.
+ i.e.The key is to remember that git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch.
+Representing in diagram gives us a clear idea. 
+We can figure out if we are not branching a unreachable state and branch it.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
