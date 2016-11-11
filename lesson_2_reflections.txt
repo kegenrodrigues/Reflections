@@ -17,6 +17,7 @@ Using branches we can make a series of parallel versions....where parallel versi
 
 
 How do the diagrams help you visualize the branch structure?
+Diagrams help me to understand which commits are unreachable at all (i.e. unless you note down the commit id) or commits which are unreachable from another branch(i.e. unless you note down the commit id or goto the branch that contains the commit and type command git log to reach that commit )
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
