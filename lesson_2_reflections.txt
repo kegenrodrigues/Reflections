@@ -11,6 +11,10 @@ Using git commit command you can make sure you have one commit per logical chang
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+Using branches we can make a series of parallel versions....where parallel versions here means different experiments and series means improving the experiment versions
+//Not sure about this watch interview with Mike Wales after 
+//Reflect and watch checkout videos again and branch video also
+
 
 How do the diagrams help you visualize the branch structure?
 
