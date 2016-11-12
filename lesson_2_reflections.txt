@@ -31,5 +31,9 @@ Representing in diagram gives us a clear idea.
 We can figure out if we are not branching a unreachable state and branch it.
 
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
-manually?
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros:Saves time if no bug and done correctly...Its better that git allows us to decide which part of the code to keep when a merge conflict arises because making git sophisticated would make it slow or would require more space for git. its better that we spent a few minutes to figure it out for ourselves.
+
+
+Cons:Merge conflicts can be annoying....always doing merges manually can be time consuming.
+
