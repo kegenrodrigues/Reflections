@@ -1,39 +1,45 @@
-What happens when you initialize a repository? Why do you need to do it?
-Wen u initialize only u can use git
+What happens when you initialize a repository? Why do you need to do it? 
+
+1>When you initialize a repository then only you can use git.
+2>Git commands wont work if it doesnt contain .git which is hidden 
 
 How is the staging area different from the working directory and the repository?What value do you think it offers?
-The staging area is the intermediate of repository and working directory...the staging area allows you to add files to a commit..i.e. it allows you to decide which files to put in a certain commit...we can do this usin git add file_name......bcoz of the staging area all files are not comitted directly unless v want them all to......
+
+1>The staging area is the intermediate of repository and working directory
+2>The staging area allows you to add files to a commit..i.e. it allows you to decide which files to put in a certain commit
+3>We can do this using $git add file_name
+4>bcoz of the staging area all files are not comitted directly unless v want them all to
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-Using the git add command you can add to the staging area and using the git status command you can find out which changes are to be made i.e the changes which is made but not commited
-Using git commit command you can make sure you have one commit per logical change. i.e. changes mentioned in the git status
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
-Using branches we can make a series of parallel versions....where parallel versions here means different experiments and series means improving the experiment versions
-//Not sure about this watch interview with Mike Wales after 
-//Reflect and watch checkout videos again and branch video also
+1>Using the $git add command you can add files to the staging area and using the git status command you can find out which changes are to be made i.e the changes which is made but not commited
+2>Using $git commit command you can make sure you have one commit per logical change. (i.e. changes mentioned in the git status) using a message
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+1>Using branches we can make a series of parallel versions
+(where parallel versions here means different experiments and series means improving the versions)
+2>Branches will help in case of adding new features, trying experiments, dividing work to do so,etc.
 
 
 How do the diagrams help you visualize the branch structure?
-Diagrams help me to understand which commits are unreachable at all 
+1>Diagrams help me to understand which commits are unreachable at all 
 (i.e. unless you note down the commit id 
-::Note::If a branch is deleted and leaves some commits unreachable from existing branches, those commits will continue to be accessible by commit id, until Git’s garbage collection runs. This will happen automatically from time to time, unless you actively turn it off. You can also run this process manually with git gc.)
- or commits which are unreachable from another branch(i.e. unless you note down the commit id or goto the branch that contains the commit and type command git log to reach that commit )
+::Intruction Note::If a branch is deleted and leaves some commits unreachable from existing branches, those commits will continue to be accessible by commit id, until Git’s garbage collection runs. This will happen automatically from time to time, unless you actively turn it off. You can also run this process manually with git gc.)
+ 2>Diagrams also help me to understand which commits are unreachable from another branch(i.e. unless you note down the commit id or goto the branch that contains the commit and type command git log to reach that commit )
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
-The result is the lines of code(LOC) which were common between the files to be merged, deletions of the original LOC if not present in any one of the files to be merged(deleted by that user),additions of LOC from the merged files which adds their own features(jack and rachael)
-The branch which is checkedout is the branch which will be the result of the merged branch.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+1>The result is the lines of code(LOC) which were common between the files to be merged, deletions of the original LOC if not present in any one of the files to be merged(deleted by that user),additions of LOC from the merged files which adds their own features(refer jack and rachael example)
+2>The branch which is checkedout is the branch which will be the result of the merged branch.
  i.e.The key is to remember that git merge always merges all the specified branches into the currently checked out branch, creating a new commit for that branch.
-Representing in diagram gives us a clear idea. 
-We can figure out if we are not branching a unreachable state and branch it.
+3>Representing in diagram gives us a clear idea. 
+  We can figure out if we are not branching a unreachable state and branch it.
 
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
-Pros:Saves time if no bug and done correctly...Its better that git allows us to decide which part of the code to keep when a merge conflict arises because making git sophisticated would make it slow or would require more space for git. its better that we spent a few minutes to figure it out for ourselves.
+
+1>Pros:Saves time if no bug and done correctly...Its better that git allows us to decide which part of the code to keep when a merge conflict arises because making git sophisticated would make it slow or would require more space for git. its better that we spent a few minutes to figure it out for ourselves.
 
 
-Cons:Merge conflicts can be annoying....always doing merges manually can be time consuming.
+2>Cons:Merge conflicts can be annoying....always doing merges manually can be time consuming.
 
