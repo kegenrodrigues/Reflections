@@ -2,31 +2,31 @@ How did viewing a diff between two versions of a file help you see the bug that 
 
     by looking at the + and - symbols
 
-How could having easy access to the entire history of a file make you a more
-efficient programmer in the long term?
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-    one can learn from mistakes ..reduce lines of codes ..go back to old versions if any error occurs
+    1>one can learn from mistakes
+    2>reduce lines of codes 
+    3>go back to old versions if desired
 
-What do you think are the pros and cons of manually choosing when to create a
-commit, like you do in Git, vs having versions automatically saved, like Google
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
-   No unnecessary saved versions for minor change.....saving versions after crucial changes....you are the boss!
+   1>No unnecessary saved versions for minor change
+   2>saving versions after crucial changes
 
-Why do you think some version control systems, like Git, allow saving multiple
-files in one commit, while others, like Google Docs, treat each file separately?
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
     Becoz saving multiple files in one commit is saving a particular state of the system and not only certain files. This is very helpful in case of failure
 
 How can you use the commands git log and git diff to view the history of files?
 
-    git log gives the list of all commits and git diff gives the changes made in the commits whose commit id is entered (insertions and deletions)
+    1>git log gives the list of commits
+    2>git diff gives the changes made in the commits whose commit id is entered (showing insertions and deletions)
 
-How might using version control make you more confident to make changes that
-could break something?
+How might using version control make you more confident to make changes that could break something?
 
-    Restoring to the previous commit makes me confident 
+    1>Restoring to the previous commit can help a programmer to experiment fearlessly
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    making any program..for projects....
+    Making Projects :)
